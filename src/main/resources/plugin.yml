@@ -1,0 +1,10 @@
+name: Acuatics
+main: ac.dianelito.Acuatics
+version: 1.0
+website: https://github.com/dianelito/Acuatics
+api-version: 1.20.1
+softdepend:
+  - Luckperms
+author:
+  name: Dianelito
+  url: https://github.com/dianelito

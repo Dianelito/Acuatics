@@ -1,0 +1,20 @@
+#
+# Plugin By github.com/Dianelito
+#
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "staffsystem"
+  username: "root"
+  password: "password"
+
+discord:
+  token: "TOKEN"
+  channel_id: CANAL ID
+  admin_role_id: ROL ID
+
+messages:
+  points_added: "El Staff <@{staff}> consiguió +{amount} Staff Points\nRazón: {reason}\nAhora tiene {total}."
+  points_removed: "El Staff <@{staff}> se le quitó {amount} Staff Points\nRazón: {reason}\nAhora tiene {total}."
+  strike_added: "El Staff <@{staff}> consiguió {amount} strike\nRazón: {reason}\nAhora tiene {total}."
+  strike_removed: "El Staff <@{staff}> se le quitó {amount} strike\nRazón: {reason}\nAhora tiene {total}."
